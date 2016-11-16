@@ -1,0 +1,366 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		112DAAFB1DCF059300198250 /* Vec2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112DAAFA1DCF059300198250 /* Vec2D.swift */; };
+		112DAB021DCF1B4700198250 /* TransformationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112DAB011DCF1B4700198250 /* TransformationManager.swift */; };
+		112DAB041DCF2FC200198250 /* AugmentedLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112DAB031DCF2FC200198250 /* AugmentedLayer.swift */; };
+		112DAB061DCF4D8900198250 /* Quat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112DAB051DCF4D8900198250 /* Quat.swift */; };
+		112DAB081DCF85DA00198250 /* ft_button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112DAB071DCF85DA00198250 /* ft_button.swift */; };
+		11305D861DCEFF9800B68304 /* Vec3D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11305D851DCEFF9800B68304 /* Vec3D.swift */; };
+		115CE7CC1DCD9B7F00EA79B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115CE7CB1DCD9B7F00EA79B7 /* AppDelegate.swift */; };
+		115CE7CE1DCD9B7F00EA79B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115CE7CD1DCD9B7F00EA79B7 /* ViewController.swift */; };
+		115CE7D11DCD9B7F00EA79B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 115CE7CF1DCD9B7F00EA79B7 /* Main.storyboard */; };
+		115CE7D41DCD9B7F00EA79B7 /* Vandalism.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 115CE7D21DCD9B7F00EA79B7 /* Vandalism.xcdatamodeld */; };
+		115CE7D61DCD9B7F00EA79B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 115CE7D51DCD9B7F00EA79B7 /* Assets.xcassets */; };
+		115CE7D91DCD9B7F00EA79B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 115CE7D71DCD9B7F00EA79B7 /* LaunchScreen.storyboard */; };
+		115CE7E11DCDA22000EA79B7 /* CameraOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115CE7E01DCDA22000EA79B7 /* CameraOverlay.swift */; };
+		11D1112C1DCE9BFA00688D5A /* PointTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D1112B1DCE9BFA00688D5A /* PointTracker.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		112DAAFA1DCF059300198250 /* Vec2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Vec2D.swift; path = ../Vec2D.swift; sourceTree = "<group>"; };
+		112DAAFE1DCF114200198250 /* Vandalism-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vandalism-Bridging-Header.h"; sourceTree = "<group>"; };
+		112DAB011DCF1B4700198250 /* TransformationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransformationManager.swift; sourceTree = "<group>"; };
+		112DAB031DCF2FC200198250 /* AugmentedLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AugmentedLayer.swift; sourceTree = "<group>"; };
+		112DAB051DCF4D8900198250 /* Quat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Quat.swift; sourceTree = "<group>"; };
+		112DAB071DCF85DA00198250 /* ft_button.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ft_button.swift; sourceTree = "<group>"; };
+		11305D851DCEFF9800B68304 /* Vec3D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vec3D.swift; sourceTree = "<group>"; };
+		115CE7C81DCD9B7F00EA79B7 /* Vandalism.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vandalism.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		115CE7CB1DCD9B7F00EA79B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		115CE7CD1DCD9B7F00EA79B7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		115CE7D01DCD9B7F00EA79B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		115CE7D31DCD9B7F00EA79B7 /* Vandalism.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Vandalism.xcdatamodel; sourceTree = "<group>"; };
+		115CE7D51DCD9B7F00EA79B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		115CE7D81DCD9B7F00EA79B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		115CE7DA1DCD9B7F00EA79B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		115CE7E01DCDA22000EA79B7 /* CameraOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraOverlay.swift; sourceTree = "<group>"; };
+		11D1112B1DCE9BFA00688D5A /* PointTracker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PointTracker.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		115CE7C51DCD9B7F00EA79B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		115CE7BF1DCD9B7F00EA79B7 = {
+			isa = PBXGroup;
+			children = (
+				112DAAFE1DCF114200198250 /* Vandalism-Bridging-Header.h */,
+				115CE7CA1DCD9B7F00EA79B7 /* Vandalism */,
+				115CE7C91DCD9B7F00EA79B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		115CE7C91DCD9B7F00EA79B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				115CE7C81DCD9B7F00EA79B7 /* Vandalism.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		115CE7CA1DCD9B7F00EA79B7 /* Vandalism */ = {
+			isa = PBXGroup;
+			children = (
+				115CE7CB1DCD9B7F00EA79B7 /* AppDelegate.swift */,
+				115CE7CD1DCD9B7F00EA79B7 /* ViewController.swift */,
+				115CE7CF1DCD9B7F00EA79B7 /* Main.storyboard */,
+				115CE7D51DCD9B7F00EA79B7 /* Assets.xcassets */,
+				115CE7D71DCD9B7F00EA79B7 /* LaunchScreen.storyboard */,
+				115CE7DA1DCD9B7F00EA79B7 /* Info.plist */,
+				115CE7D21DCD9B7F00EA79B7 /* Vandalism.xcdatamodeld */,
+				115CE7E01DCDA22000EA79B7 /* CameraOverlay.swift */,
+				11D1112B1DCE9BFA00688D5A /* PointTracker.swift */,
+				11305D851DCEFF9800B68304 /* Vec3D.swift */,
+				112DAAFA1DCF059300198250 /* Vec2D.swift */,
+				112DAB011DCF1B4700198250 /* TransformationManager.swift */,
+				112DAB031DCF2FC200198250 /* AugmentedLayer.swift */,
+				112DAB051DCF4D8900198250 /* Quat.swift */,
+				112DAB071DCF85DA00198250 /* ft_button.swift */,
+			);
+			path = Vandalism;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		115CE7C71DCD9B7F00EA79B7 /* Vandalism */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 115CE7DD1DCD9B7F00EA79B7 /* Build configuration list for PBXNativeTarget "Vandalism" */;
+			buildPhases = (
+				115CE7C41DCD9B7F00EA79B7 /* Sources */,
+				115CE7C51DCD9B7F00EA79B7 /* Frameworks */,
+				115CE7C61DCD9B7F00EA79B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Vandalism;
+			productName = Vandalism;
+			productReference = 115CE7C81DCD9B7F00EA79B7 /* Vandalism.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		115CE7C01DCD9B7F00EA79B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Prateek R Patil";
+				TargetAttributes = {
+					115CE7C71DCD9B7F00EA79B7 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 9AHTY78MU6;
+						LastSwiftMigration = 0810;
+					};
+				};
+			};
+			buildConfigurationList = 115CE7C31DCD9B7F00EA79B7 /* Build configuration list for PBXProject "Vandalism" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 115CE7BF1DCD9B7F00EA79B7;
+			productRefGroup = 115CE7C91DCD9B7F00EA79B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				115CE7C71DCD9B7F00EA79B7 /* Vandalism */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		115CE7C61DCD9B7F00EA79B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				115CE7D91DCD9B7F00EA79B7 /* LaunchScreen.storyboard in Resources */,
+				115CE7D61DCD9B7F00EA79B7 /* Assets.xcassets in Resources */,
+				115CE7D11DCD9B7F00EA79B7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		115CE7C41DCD9B7F00EA79B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				112DAB021DCF1B4700198250 /* TransformationManager.swift in Sources */,
+				112DAB081DCF85DA00198250 /* ft_button.swift in Sources */,
+				115CE7CE1DCD9B7F00EA79B7 /* ViewController.swift in Sources */,
+				112DAB061DCF4D8900198250 /* Quat.swift in Sources */,
+				11305D861DCEFF9800B68304 /* Vec3D.swift in Sources */,
+				112DAAFB1DCF059300198250 /* Vec2D.swift in Sources */,
+				115CE7E11DCDA22000EA79B7 /* CameraOverlay.swift in Sources */,
+				115CE7CC1DCD9B7F00EA79B7 /* AppDelegate.swift in Sources */,
+				115CE7D41DCD9B7F00EA79B7 /* Vandalism.xcdatamodeld in Sources */,
+				112DAB041DCF2FC200198250 /* AugmentedLayer.swift in Sources */,
+				11D1112C1DCE9BFA00688D5A /* PointTracker.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		115CE7CF1DCD9B7F00EA79B7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				115CE7D01DCD9B7F00EA79B7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		115CE7D71DCD9B7F00EA79B7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				115CE7D81DCD9B7F00EA79B7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		115CE7DB1DCD9B7F00EA79B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		115CE7DC1DCD9B7F00EA79B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		115CE7DE1DCD9B7F00EA79B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Vandalism",
+				);
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/Vandalism/ARKit";
+				INFOPLIST_FILE = Vandalism/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tinfoilstudios.Vandalism;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/Vandalism-Bridging-Header.h";
+				SWIFT_VERSION = 3.0.1;
+			};
+			name = Debug;
+		};
+		115CE7DF1DCD9B7F00EA79B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Vandalism",
+				);
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/Vandalism/ARKit";
+				INFOPLIST_FILE = Vandalism/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tinfoilstudios.Vandalism;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/Vandalism-Bridging-Header.h";
+				SWIFT_VERSION = 3.0.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		115CE7C31DCD9B7F00EA79B7 /* Build configuration list for PBXProject "Vandalism" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				115CE7DB1DCD9B7F00EA79B7 /* Debug */,
+				115CE7DC1DCD9B7F00EA79B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		115CE7DD1DCD9B7F00EA79B7 /* Build configuration list for PBXNativeTarget "Vandalism" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				115CE7DE1DCD9B7F00EA79B7 /* Debug */,
+				115CE7DF1DCD9B7F00EA79B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		115CE7D21DCD9B7F00EA79B7 /* Vandalism.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				115CE7D31DCD9B7F00EA79B7 /* Vandalism.xcdatamodel */,
+			);
+			currentVersion = 115CE7D31DCD9B7F00EA79B7 /* Vandalism.xcdatamodel */;
+			path = Vandalism.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 115CE7C01DCD9B7F00EA79B7 /* Project object */;
+}
