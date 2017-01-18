@@ -1,10 +1,14 @@
-# breadcrumbs
+# Breadcrumbs
 Breadcrumbs is an augmented reality geotagged messaging application for ios.  
   
-Submission by Prateek Patil and Robert Nowell for AT&amp;T AR/VR Hackathon, November 2016. First prize, AR.
+First prize, Augmented Reality category. AT&T AR/VR Hackathon, November 2016.
 
-This prototype is built using the swift standard library, and we are currently developing a more sophisticated prototype with openGL. The language app is written in Swift.  
+## Implementation  
+This prototype is built using the swift standard library, and we are currently developing a more sophisticated prototype with openGL. The app is written in Swift.  
 
+The most challenging aspect of implenting this prototype was Breadcrumb positioning with respect to a rotating device. This prototype relies upon a proprietary quaternion rotation system. We will likely look to leverage existing libraries and tools in the future, instead.  
+
+## Non-technical Description  
 The idea for the application is that there is a lot of information that  
 
 1.  People would care to see.  
@@ -20,3 +24,7 @@ The ux is something like the following: with the app open as it might be for Pok
 ![alt text](https://github.com/robertnowell/breadcrumbs/blob/master/Screen%20Shot%202017-01-17%20at%2010.37.25%20PM.png "Pop Quiz!")  
   
 Video: https://www.youtube.com/watch?v=W2pvLNl3Dyk
+
+## Authors
+
+Created by Prateek Patil and Robert Nowell for AT&amp;T AR/VR Hackathon
