@@ -7,4 +7,8 @@ The idea for the application is that there is a lot of information that is (1) u
 
 The ux is something like the following: with the app open as it might be for Pokemon Go, geolocated messages will appear at specific locations, often at a doorstep (another example: a friend is having a party, and she leaves the wifi password as a Breadcrumb at the door). We think this is very cool, and look forward to working on it.  
 
+![alt text](https://github.com/robertnowell/breadcrumbs/blob/master/Screen%20Shot%202017-01-17%20at%2010.37.08%20PM.png "Beware Third Stair")  
+
+![alt text](https://github.com/robertnowell/breadcrumbs/blob/master/Screen%20Shot%202017-01-17%20at%2010.37.25%20PM.png "Pop Quiz!")  
+  
 Video: https://www.youtube.com/watch?v=W2pvLNl3Dyk
