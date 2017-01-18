@@ -4,9 +4,10 @@ Breadcrumbs is an augmented reality geotagged messaging application for ios. Sub
 This prototype is built using the swift standard library, and we are currently developing a more sophisticated prototype with openGL. The language app is written in Swift.  
 
 The idea for the application is that there is a lot of information that  
-1. People would care to see  
-2. is connected to a specific location , and 
-3. is relevant to a specific time period.  
+
+1.  People would care to see.  
+2.  is connected to a specific location , and  
+3.  is relevant to a specific time period.  
 
 For example, a hiking trail has dangerous ice in sections of the trail, or you're about to have a pop quiz in your high school geography class.  
 
