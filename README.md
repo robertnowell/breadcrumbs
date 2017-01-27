@@ -3,6 +3,10 @@ Breadcrumbs is an augmented reality geotagged messaging application for ios.
   
 First prize, Augmented Reality category. AT&T AR/VR Hackathon, November 2016.
 
+To watch our submission video, click on the photo:  
+<a href="https://www.youtube.com/watch?v=W2pvLNl3Dyk" target="Breadcrumbs"><img src="https://github.com/robertnowell/breadcrumbs/blob/master/Screen%20Shot%202017-01-27%20at%201.25.07%20AM.png" 
+alt="Breadcrumbs" width="800" height="480" border="10" /></a>
+
 ## Implementation  
 This prototype is built using the swift standard library, and we are currently developing a more sophisticated prototype with openGL. The app is written in Swift.  
 
@@ -19,12 +23,8 @@ For example, a hiking trail has dangerous ice in sections of the trail, so Range
 
 The ux is something like the following: with the app open as it might be for Pokemon Go, geolocated messages will appear at specific locations, often at a doorstep. We think this is very cool, and look forward to working on it.  
 
-![alt text](https://github.com/robertnowell/breadcrumbs/blob/master/Screen%20Shot%202017-01-17%20at%2010.45.00%20PM.png "Nice View!")  
-
 ![alt text](https://github.com/robertnowell/breadcrumbs/blob/master/Screen%20Shot%202017-01-17%20at%2010.37.25%20PM.png "Pop Quiz!")  
   
-Video: https://www.youtube.com/watch?v=W2pvLNl3Dyk
-
 ## Authors
 
 Created by Prateek Patil and Robert Nowell for AT&amp;T AR/VR Hackathon
