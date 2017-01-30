@@ -15,7 +15,7 @@ The most challenging aspect of implenting this prototype was Breadcrumb position
 ## Non-technical Description  
 The idea for the application is that there is a lot of information that  
 
-1.  People would care to see.  
+1.  people would care to see.  
 2.  is connected to a specific location , and  
 3.  is relevant to a specific time period.  
 
