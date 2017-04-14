@@ -2,7 +2,7 @@
 Breadcrumbs is an augmented reality geotagged messaging application for ios.  
 First prize, Augmented Reality category. AT&T AR/VR Hackathon, November 2016.
 
-Submission by Prateek Patil and Robert Nowell.
+Submission by Prateek Patil and Robert Nowell. 
 
 To watch our submission video, please click on the photo:   
 <a href="https://www.youtube.com/watch?v=W2pvLNl3Dyk" target="Breadcrumbs"><img src="https://github.com/robertnowell/breadcrumbs/blob/master/Screen%20Shot%202017-01-27%20at%201.25.07%20AM.png" 
