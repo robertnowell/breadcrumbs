@@ -8,7 +8,7 @@ To watch our submission video, please click on the photo:
 <a href="https://www.youtube.com/watch?v=W2pvLNl3Dyk" target="Breadcrumbs"><img src="https://github.com/robertnowell/breadcrumbs/blob/master/Screen%20Shot%202017-01-27%20at%201.25.07%20AM.png" 
 alt="Breadcrumbs" width="800" height="480" border="10" /></a>
   
-## Implementation     
+## Implementation      
 This prototype is built using the swift standard library, and we are currently developing a more sophisticated prototype with openGL. The app is written in Swift.    
 
 A challenging aspect of implenting this prototype was Breadcrumb positioning with respect to a rotating device. This prototype relies upon a proprietary quaternion rotation system. We will likely look to leverage existing libraries and tools in the future, instead.  
